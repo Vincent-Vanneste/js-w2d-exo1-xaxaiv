@@ -1,0 +1,154 @@
+<!-- Cliquer sur le titre Exos pour voir la vidéo des exercices -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Exo1</title>
+    <meta charset="UTF-8" />
+    <style>
+    .exercice {
+      width: 90%;
+      margin: auto;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .exercice li {
+      display: inline;
+      list-style: none;
+    }
+    .exercice li h3,
+    .exercice li h2,
+    .exercice li p {
+      display: none;
+    }
+
+    .exercice li img {
+      height: 150px;
+      opacity: 0.3;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .exercice .resume {
+      border: 2px solid white;
+      height: 200px;
+      overflow: auto;
+      width: 80%;
+      margin: auto;
+      padding: 10px;
+      background-color: black;
+      color: white;
+      text-align: left;
+      font-size: 1.5em;
+    }
+    .exercice .resume:first-letter {
+      font-size: 2em;
+    }
+  </style>
+  </head>
+
+  <body>
+    <h1>
+      <a
+        href="https://www.vincent-vanneste.fr/videos/javascript/API_DOM_Exemples.mp4"
+        >Exo1</a
+      >
+    </h1>
+    <ul class="livres">
+      <li>
+        <h2>JavaScript. Gardez le meilleur !</h2>
+        <img src="https://www.vincent-vanneste.fr/images/gardezLeMeilleur.gif" alt="livre gardezLeMeilleur" />
+        <h3>Douglas Crockford</h3>
+        <p>
+          Tout langage a ses bons et ses mauvais côtés mais le JavaScript en
+          compte plus de mauvais qu'un grand nombre de langages du fait d'un
+          développement et d'un lancement hâtifs. Certaines idées brillantes
+          (les fonctions, le typage lâche, les objets dynamiques et une notation
+          littérale très expressive des objets) se mêlent à des idées médiocres,
+          voire parfois exécrables (un modèle de programmation axé sur les
+          variables globales, par exemple).Partant de ce constat, l'auteur a
+          isolé un sous-ensemble du JavaScript plus fiable et plus lisible, en
+          recensant toutes les bonnes idées qui en font un langage de
+          programmation orienté objet exceptionnel. Il dresse une liste de bons
+          éléments et s'efforce de livrer un aperçu détaillé de toutes les
+          parties très élégantes du JavaScript, dont la syntaxe, les tableaux,
+          le style, etc. Avec Le meilleur du JavaScript, vous découvrirez un
+          langage embelli, léger et très expressif qui vous permettra de créer
+          du code efficace, que vous gériez des bibliothèques d'objets ou
+          tentiez simplement d'accélérer votre programmation Ajax. L'ouvrage
+          fournit de nombreux exemples de code. Il est destiné à ceux qui
+          connaissent déjà la programmation. Pour un programmeur JavaScript,
+          c'est une synthèse qui permet de mieux cerner les forces et les
+          faiblesses du langage et de déterminer les points à privilégier. Pour
+          un programmeur habitué aux autres langages et qui découvre le
+          JavaScript, c'est l'occasion de se plonger dans le langage en
+          s'attachant directement aux éléments les plus performants.
+        </p>
+      </li>
+      <li>
+        <h2>JavaScript.La référence, 5ème édition</h2>
+        <img src="https://www.vincent-vanneste.fr/images/javascript.gif" alt="livre javascript" />
+        <h3>David Flanagan</h3>
+        <p>
+          JavaScript est un des langages de programmation pour le Web que l'on
+          pourrait qualifier d'incontournable. Principal langage côté client, il
+          se pose comme un composant clé du développement web. Cette cinquième
+          édition a été revue et mise à jour de manière à expliquer comment
+          utiliser ce langage dans des applications Web 2.0.
+        </p>
+      </li>
+      <li>
+        <h2>jQuery. Simplifiez et enrichissez vos développements Javascript</h2>
+        <img src="https://www.vincent-vanneste.fr/images/jquery.gif" alt="livre jquery" />
+        <h3>Jonathan Chaffer , Jonathan Swedberg</h3>
+        <p>
+          Pour mettre en œuvre des sites interactifs attrayants, les
+          développeurs se tournent vers des bibliothèques JavaScript, qui leur
+          permettent d'automatiser les tâches courantes et de simplifier les
+          plus complexes. JQuery, la plus populaire d'entre elles, est
+          particulièrement appréciée des développeurs tant pour sa cohérence
+          conceptuelle que ses performances. Dans cet ouvrage, les auteurs
+          partagent leurs connaissances, leur expérience et leur passion pour
+          jQuery afin de vous aider à comprendre comment cette bibliothèque
+          fonctionne et vous permettre d'en tirer le meilleur parti. Si vos
+          précédentes tentatives de développement JavaScript vous ont laissé
+          perplexe, ils vous aideront à franchir les obstacles dressés par AJAX,
+          les événements, les effets et les fonctionnalités avancées du langage
+          JavaScript. Ce livre vous apportera tous les outils dont vous avez
+          besoin pour rester à l'avant-garde du développement web.
+        </p>
+      </li>
+      <li>
+        <h2>jQuery - Le framework JavaScript du Web 2.0</h2>
+        <img src="https://www.vincent-vanneste.fr/images/jQueryWeb2.gif" alt="livre jQueryWeb2" />
+        <h3>Luc Van Lancker</h3>
+        <p>
+          Ce livre sur jQuery s'adresse à des experts ou des candidats experts
+          dans la création de sites Web. La connaissance, sinon la maîtrise du
+          JavaScript, des feuilles de style CSS, du DOM et de l'AJAX sont des
+          pré-requis indispensables à la compréhension et à la mise en pratique
+          de cet ouvrage.
+        </p>
+      </li>
+      <li>
+        <h2>JavaScript pour le Web 2.0</h2>
+        <img src="https://www.vincent-vanneste.fr/images/pourLeWeb2.gif" alt="livre pourLeWeb2" />
+        <h3>Thierry Templier, Arnaud Gougeon</h3>
+        <p>
+          JavaScript est longtemps resté un langage au potentiel sous-estimé,
+          mal aimé et souvent mal maîtrisé par les développeurs Web, jusqu'à
+          l'émergence d'Ajax et du Web 2.0 qui ont mis en lumière les
+          possibilités spectaculaires et insoupçonnées offertes par ce langage.
+          L'objectif du présent ouvrage est de vous amener bien au-delà de
+          l'utilisation usuelle basique de JavaScript, en vous montrant comment
+          développer avec efficacité des applications Web 2.0 performantes et
+          faciles à maintenir. Après un rappel de la syntaxe de base du langage,
+          vous approfondirez les différents aspects avancés du langage et de son
+          environnement : programmation orientée objet, utilisation avancée du
+          DOM, échanges HTTP asynchrones à l'aide de XMLHttpRequest, interaction
+          avec (X)HTML et CSS, création de composants graphiques, etc.
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
